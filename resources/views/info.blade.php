@@ -67,8 +67,8 @@
   <div class="footer">
     <p>&copy; 20xx ∞ ALL Rights Reserved.</p>
 </div>
-
 <script src="{{ asset('/js/info.js') }}"></script>
+
 
 </body>
 </html>

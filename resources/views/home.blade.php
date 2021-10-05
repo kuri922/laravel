@@ -13,7 +13,7 @@
 @section('layouts.layout')
 
   <div class="header">
-    <img src="images/header.png" alt="海外の風景">
+    <img src="images/images/header.png" alt="海外の風景">
 
   </div>
   <div class="wrapper">

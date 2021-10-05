@@ -26,7 +26,7 @@
     </div>
 
     <main>
-      <img src="images/top.png"
+      <img src="images/images/top.png"
       alt="紹介写真"
       width="300"
       height="350">
