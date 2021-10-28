@@ -18,6 +18,7 @@ Route::get('/', function () {
 Route::get('hello','HelloController@home');
 Route::get('hello','HelloController@info');
 Route::get('hello','HelloController@mypage');
+Route::post('sample/store','HelloController@store')->name('hello.store');
 
 Route::get('info', function () {
     return view('info');

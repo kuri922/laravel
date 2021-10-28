@@ -26,8 +26,8 @@
   
   <div class="wrapper">
 
-  <form method="get" name="name_form" >
-
+  <form method="POST" name="name_form" action="{{url('/sample/store')}}">
+  {{ csrf_field( ) }}
     
    <div class="name">
      <p>名前</p>
@@ -39,10 +39,10 @@
     <div class="gender">
 
       <label for="r_male">男性
-        <input  type="radio" name="gender_checkd" value="male">
+        <input  type="radio" name="gender" value=1>
         </label>
       <label for="r_female">女性
-         <input type="radio" name="gender_checkd" value="female">
+         <input type="radio" name="gender" value=2>
       </label>
     </div>
     
